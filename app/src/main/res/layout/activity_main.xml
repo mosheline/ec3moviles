@@ -49,16 +49,32 @@
 
     <Button
         android:id="@+id/btnIngresar"
-        android:layout_width="322dp"
+        android:layout_width="245dp"
         android:layout_height="42dp"
         android:layout_marginTop="52dp"
-        android:text="Acceder"
+        android:text="@string/val_acceder"
+        app:icon="@drawable/check_24"
+        app:iconGravity="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword"
         app:layout_constraintVertical_bias="0.034"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="245dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/val_salir"
+        app:icon="@drawable/baseline_exit_to_app_24"
+        app:iconGravity="textStart"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresar"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
