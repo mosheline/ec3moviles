@@ -20,4 +20,10 @@
     <string name="tvdescripcion">SOBRE TU MASCOTA</string>
     <string name="tvfacebok">FACEBOOK:</string>
     <string name="etfacebook">INGRESA TU FACEBOOK</string>
+    <string name="menu_reserva">reserva</string>
+    <string name="tvtitulo">CONFRIMA TU RESERVA</string>
+    <string name="menu_inicio">inicio</string>
+    <string name="etfechainicio">INGRESE LA FECHA DE INICIO</string>
+    <string name="etfechafin">INGRESE FECHA FINAL</string>
+    <string name="btnreserva">RESERVAR AHAORA</string>
 </resources>

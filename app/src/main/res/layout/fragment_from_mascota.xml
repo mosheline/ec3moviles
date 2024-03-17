@@ -3,21 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".FromMascotaFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <EditText
         android:id="@+id/etnombre"
-        android:layout_width="378dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="362dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="@string/etnombre"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
@@ -26,7 +26,7 @@
         android:id="@+id/tvdescripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:text="@string/tvdescripcion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.064"
@@ -38,7 +38,7 @@
         android:id="@+id/etdescripcion"
         android:layout_width="362dp"
         android:layout_height="42dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         android:id="@+id/etfacebook"
         android:layout_width="375dp"
         android:layout_height="55dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/etfacebook"
         android:inputType="text"
@@ -70,5 +70,6 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvfacebok" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,5 +9,15 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_principal" />
 
+        <item
+            android:id="@+id/fromReservaFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_reserva" />
+        <item
+            android:id="@+id/principalFragmentFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_inicio" />
+
+
     </group>
 </menu>

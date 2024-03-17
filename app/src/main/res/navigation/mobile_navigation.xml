@@ -3,10 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/fromMascotaFragment">
+    android:label="@string/menu_reserva"
+    app:startDestination="@id/principalFragment">
     <fragment
         android:id="@+id/fromMascotaFragment"
         android:name="pe.edu.idat.evc3.FromMascotaFragment"
         android:label="@string/menu_principal"
         tools:layout="@layout/fragment_from_mascota" />
+    <fragment
+        android:id="@+id/fromReservaFragment"
+        android:name="pe.edu.idat.evc3.FromReservaFragment"
+        android:label="fragment_from_reserva"
+        tools:layout="@layout/fragment_from_reserva" />
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="pe.edu.idat.evc3.principalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" />
 </navigation>
