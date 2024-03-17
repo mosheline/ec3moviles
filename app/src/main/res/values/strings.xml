@@ -15,4 +15,6 @@
     <string name="val_salir">Salir</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resenas">Reseñas</string>
+    <string name="frrsctvTitulo">25 Reseñas de Carlos Ventura</string>
 </resources>
